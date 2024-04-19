@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul { list-style: none; padding-left: 5px; }
+a { color:blue; text-decoration: none;}
+.bar {
+    background-color: #f9f9fb;
+    padding:15px;
+    border-top: solid 1px #cdcdcd;
+    border-bottom: solid 1px #cdcdcd;
+}
+.content {
+    max-width: 1440px;
+    margin: auto;
+    grid-gap: 3rem;
+    display: grid;
+    gap: 3rem;
+    grid-template-areas: "sidebar main anchors";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.footer {
+    min-height: 100px;
+    border-top: solid 1px #cdcdcd;
+    text-align: center;
+    font-size: small;
+    margin-top: 80px;
+    padding: 20px;
+}
+.anchors {
+    border-left: solid 1px #cdcdcd;
+    padding-left: 15px;
+}
+.sidebar {
+    border-right: solid 1px #cdcdcd;
+}
+figure {
+    text-align: center;
+}
+
+
+ #tabela {
+    width: 100%; /* Ajusta a largura da tabela para 100% do container */
+  margin: 20px auto; /* Adiciona margem superior e inferior e centraliza a tabela */
+  border-collapse: collapse; /* Remove bordas entre células e as une */
+}
+
+tr {
+  border-bottom: 1px solid #ddd; /* Adiciona borda inferior fina em cada linha */
+}
+
+th, td {
+  padding: 10px; /* Adiciona espaço interno nas células */
+  text-align: center; /* Alinha o texto no centro das células */
+}
+
+th {
+  background-color: #81a6e6; /* Cor de fundo para os cabeçalhos */
+  font-weight: bold; /* Texto em negrito para os cabeçalhos */
+  color: #333; /* Marrom escuro */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+tr:nth-child(odd) {
+    background-color: #f5f5f5; /* Cor de fundo alternada para linhas ímpares */
+  }
+
+td {
+  color: #666; /* Cinza escuro */
+  background-color: #f8f8f8; /* Branco acinzentado */
+}
+
+th, td {
+  border: 1px solid #ddd; /* Bordas finas */
+  border-radius: 4px; /* Bordas arredondadas */
+  font-family: "EB Garamond", serif;
+  line-height: 1.6; /* Aumenta o espaçamento entre linhas */
+
+  
+  }
